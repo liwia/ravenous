@@ -25,7 +25,6 @@ class SearchBar extends React.Component{
     }
     else{return '';}
   }
-//name of argument is okay? tast 7 Ravenous III sortByOption
   handleSortByChange(sortByOption){
     this.setState({sortBy: sortByOption});
   }
